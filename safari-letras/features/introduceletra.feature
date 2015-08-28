@@ -10,17 +10,17 @@ When  Ingresar letra "a"
 And Enviar letra
 Then Mostrar letra "a"
 
-Scenario: Ingresar vacio  
-Given Dado que estas en el juego
-When  Ingresar letra ""
-And Enviar vacio 
-Then Mostrar Mesanje "Favor de ingresar letra"
+#Scenario: Ingresar vacio  
+#Given Dado que estas en el juego
+#When  Ingresar letra ""
+#And Enviar vacio 
+#Then Mostrar Mesanje "Favor de ingresar letra"
 
-Scenario: Ingresar letra repetida  
-Given Dado que estas en el juego y allas engresado "a"
-When  Ingresar letra "a"
-And Enviar letra 
-Then Mostrar Mesanje "Letra repetida ingresar otra letra"
+#Scenario: Ingresar letra repetida  
+#Given Dado que estas en el juego y allas engresado "a"
+#When  Ingresar letra "a"
+#And Enviar letra 
+#Then Mostrar Mesanje "Letra repetida ingresar otra letra"
 
 
 
