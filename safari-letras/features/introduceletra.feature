@@ -8,7 +8,7 @@ Scenario: Igresa la letra
 Given Dado que estas en el juego
 When  Ingresar letra "a" 
 And Enviar letra
-Then Mostrar letra "a"
+Then Mostrar letra "Ingresaste la letra a"
 
 #Scenario: Ingresar vacio  
 #Given Dado que estas en el juego

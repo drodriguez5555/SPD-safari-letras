@@ -5,6 +5,7 @@ get '/' do
 end
 
 get '/safari' do
+  @@letra = params["letra"]
   erb:juego
 
 end

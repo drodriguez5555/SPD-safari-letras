@@ -19,3 +19,6 @@ When(/^Enviar letra$/) do
   click_button("enviar")
 end
 
+Then(/^Mostrar letra "(.*?)"$/) do |arg1|
+  last_response.body.should =~ /#{arg1}/m
+end
